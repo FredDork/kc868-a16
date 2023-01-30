@@ -58,7 +58,7 @@ switch:
       pcf8574: pcf8574_hub_out_1
       number: 0
       mode: OUTPUT
-      inverted: false
+      inverted: true
 
   - platform: gpio
     name: "light2"
@@ -66,7 +66,7 @@ switch:
       pcf8574: pcf8574_hub_out_1
       number: 1
       mode: OUTPUT
-      inverted: false
+      inverted: true
 
   - platform: gpio
     name: "light3"
@@ -74,7 +74,7 @@ switch:
       pcf8574: pcf8574_hub_out_1
       number: 2
       mode: OUTPUT
-      inverted: false
+      inverted: true
 
   - platform: gpio
     name: "light4"
@@ -82,7 +82,7 @@ switch:
       pcf8574: pcf8574_hub_out_1
       number: 3
       mode: OUTPUT
-      inverted: false
+      inverted: true
 
   - platform: gpio
     name: "light5"
